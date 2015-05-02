@@ -1,4 +1,4 @@
-package standardLibs;
+package libs;
 /*************************************************************************
  *  Compilation:  javac BinaryStdIn.java
  *  Execution:    java BinaryStdIn < input > output

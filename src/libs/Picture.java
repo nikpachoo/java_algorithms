@@ -1,4 +1,4 @@
-package standardLibs;
+package libs;
 /*************************************************************************
  *  Compilation:  javac Picture.java
  *  Execution:    java Picture imagename

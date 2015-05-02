@@ -1,4 +1,4 @@
-package standardLibs;
+package libs;
 /*************************************************************************
  *  Compilation:  javac Draw.java
  *  Execution:    java Draw

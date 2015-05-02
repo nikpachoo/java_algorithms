@@ -1,4 +1,4 @@
-package standardLibs;
+package libs;
 /******************************************************************************
  * StdDraw3D.java
  * Hayk Martirosyan

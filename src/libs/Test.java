@@ -1,4 +1,4 @@
-package standardLibs;
+package libs;
 
 public final class Test {
 

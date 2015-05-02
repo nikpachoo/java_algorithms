@@ -1,4 +1,4 @@
-package standardLibs;
+package libs;
 /**
  * Test client for StdIn and In. 
  **/
