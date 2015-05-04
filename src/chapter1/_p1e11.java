@@ -3,10 +3,10 @@ package chapter1;
 import libs.StdRandom;
 
 /**
- * exercise 3 from chapter 1 partial 1
+ * exercise 11 from chapter 1 partial 1
  */
 public class _p1e11 {
-    private static String toFormat(String val)
+    protected static String toFormat(String val)
     {
         return "| " + val + " ";
     }
@@ -34,21 +34,26 @@ public class _p1e11 {
         System.out.println(matrix);
     }
 
+    protected static boolean[][] getRandomBooleanMatrix(int M, int N)
+    {
+        boolean[][] boolMatrix = new boolean[M][N];
+
+        for(int i = 0; i < boolMatrix.length; i++)
+        {
+            for (int j = 0; j < boolMatrix[i].length; j++)
+            {
+                boolMatrix[i][j] = StdRandom.bernoulli();
+            }
+        }
+
+        return boolMatrix;
+    }
+
     public static void main(String[] args)
     {
         int M = Integer.parseInt(args[0]);
         int N = Integer.parseInt(args[1]);
-
-        boolean[][] logicMatrix = new boolean[M][N];
-
-        for(int i = 0; i < logicMatrix.length; i++)
-        {
-            for (int j = 0; j < logicMatrix[i].length; j++)
-            {
-                logicMatrix[i][j] = StdRandom.bernoulli();
-            }
-        }
-
-        printMatrix(logicMatrix);
+        boolean[][] boolMatrix = getRandomBooleanMatrix(M, N);
+        printMatrix(boolMatrix);
     }
 }
