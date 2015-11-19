@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.partial1;
 
 import libs.StdIn;
 import libs.StdOut;
@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 /**
  * exercise 21 from chapter 1 partial 1
  */
-public class _p1e21 {
+public class exercise21 {
     static final int tableColumnsLength = 4;
     static String[][] table = new String[0][tableColumnsLength];
     static int[] tableColumnSize = new int[tableColumnsLength];

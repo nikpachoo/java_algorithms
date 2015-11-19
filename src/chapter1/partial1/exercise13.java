@@ -1,11 +1,9 @@
-package chapter1;
-
-import libs.StdRandom;
+package chapter1.partial1;
 
 /**
  * exercise 13 from chapter 1 partial 1
  */
-public class _p1e13 extends _p1e11 {
+public class exercise13 extends exercise11 {
     private static void printMatrixTransposition(boolean[][] arr)
     {
         String numberColumns = toFormat(" ");

@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.partial1;
 
 import libs.StdDraw;
 import libs.StdRandom;
@@ -6,7 +6,7 @@ import libs.StdRandom;
 /**
  * exercise 31 from chapter 1 partial 1
  */
-public class _p1e31 {
+public class exercise31 {
     static public void randomConnectCirclePoints(int N, double p)
     {
         double[][] pointsXY = new double[N][2];

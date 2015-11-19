@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.partial1;
 
 import libs.StdIn;
 import libs.StdOut;
@@ -7,7 +7,7 @@ import libs.Stopwatch;
 /**
  * exercise 19 from chapter 1 partial 1
  */
-public class _p1e19 {
+public class exercise19 {
     static long[] cache = new long[0];
 
     public static long slowF(int N)

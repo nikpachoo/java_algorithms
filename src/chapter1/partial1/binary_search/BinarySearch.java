@@ -1,4 +1,4 @@
-package chapter1.binary_search;
+package chapter1.partial1.binary_search;
 
 import libs.In;
 import libs.StdIn;

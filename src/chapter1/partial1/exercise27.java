@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.partial1;
 
 import libs.StdOut;
 import libs.Stopwatch;
@@ -13,7 +13,7 @@ import java.util.HashMap;
  * Вычисляется вероятность B(m|n,p) того, что число успехов заключено
  * между 0 и 'm' (включительно), т.е. сумму биномиальных вероятностей от 0 до m
  */
-public class _p1e27 {
+public class exercise27 {
     public static HashMap<String, Double> cache = new HashMap<String, Double>();
 
     public static double binominal_slow (int N, int k, double p)

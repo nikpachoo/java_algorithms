@@ -1,11 +1,11 @@
-package chapter1;
+package chapter1.partial1;
 
 import libs.StdRandom;
 
 /**
  * exercise 14 from chapter 1 partial 1
  */
-public class _p1e14 {
+public class exercise14 {
     private static double heron(int base)
     {
         int supposition = StdRandom.uniform(1, base / 2);

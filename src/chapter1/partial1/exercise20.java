@@ -1,10 +1,10 @@
-package chapter1;
+package chapter1.partial1;
 
 /**
  * exercise 20 from chapter 1 partial 1
  * - compute the value of ln(N!)
  */
-public class _p1e20 {
+public class exercise20 {
     public static double lnOfFactorial (int N)
     {
         double factN = (double)factorial(N);

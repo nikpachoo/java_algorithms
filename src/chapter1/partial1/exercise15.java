@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.partial1;
 
 import libs.In;
 import libs.Out;
@@ -7,7 +7,7 @@ import libs.StdOut;
 /**
  * exercise 15 from chapter 1 partial 1
  */
-public class _p1e15 {
+public class exercise15 {
     private static int[] histogram(int[] a, int N)
     {
         int[] res = new int[N];

@@ -1,9 +1,9 @@
-package chapter1;
+package chapter1.partial1;
 
 /**
  * exercise 5 from chapter 1 partial 1
  */
-public class _p1e9 {
+public class exercise9 {
     private static String toBinaryString(int num)
     {
         String res = "";

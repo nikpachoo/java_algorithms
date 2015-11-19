@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.partial1;
 
 import libs.StdDraw;
 import libs.StdRandom;
@@ -6,7 +6,7 @@ import libs.StdRandom;
 /**
  * exercise 32 from chapter 1 partial 1
  */
-public class _p1e32 {
+public class exercise32 {
     private static int quantityEntrance(double[] arr, double l, double r)
     {
         int q = 0;

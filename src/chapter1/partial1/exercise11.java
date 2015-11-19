@@ -1,11 +1,11 @@
-package chapter1;
+package chapter1.partial1;
 
 import libs.StdRandom;
 
 /**
  * exercise 11 from chapter 1 partial 1
  */
-public class _p1e11 {
+public class exercise11 {
     protected static String toFormat(String val)
     {
         return "| " + val + " ";
