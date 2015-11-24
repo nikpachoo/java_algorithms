@@ -43,6 +43,11 @@ public class LinkedListStack<Item>  implements Iterable<Item>
         return N;
     }
 
+    public Item peek()
+    {
+        return first.item;
+    }
+
     private class Node
     {
         Item item;
